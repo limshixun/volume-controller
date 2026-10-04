@@ -53,3 +53,13 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# esp-idf build artifacts
+build/
+sdkconfig
+sdkconfig.old
+
+# lsp cache
+.local 
+.cache
+compile_commands.json
