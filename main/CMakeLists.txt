@@ -1,3 +1,3 @@
-idf_component_register(SRCS "volume-controller.c"
+idf_component_register(SRCS "potentiometer_reader.c"
                     INCLUDE_DIRS "."
 										REQUIRES esp_adc)
