@@ -16,3 +16,11 @@ Build, Flash and Monitor
 idf.py -p PORT flash monitor 
 ```
 
+## TODOS:
+
+- [] Write potentiometer reader in C
+    - [] Allow dynamic number of potentiometer
+- [] Write a client daemon listening to the serial port
+    - [] Map each slider reading to specific target
+        - [] read sink-input ID
+        
